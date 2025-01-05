@@ -1,0 +1,23 @@
+/* Stili specifici per l'app */
+.app-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.nav-menu {
+  background: #007bff;
+  padding: 1rem;
+  color: white;
+  margin-bottom: 2rem;
+}
+
+.nav-menu a {
+  color: white;
+  text-decoration: none;
+  margin-right: 1rem;
+}
+
+.nav-menu a:hover {
+  text-decoration: underline;
+}
